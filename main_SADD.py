@@ -58,8 +58,8 @@ def main(args: argparse.Namespace) -> None:
     database_path = Path(config["database_path"])
 
     ## made changes here for non target speaker removal
-    dev_trial_path = '/path_to_spkaware_protocol/dev_CM_ASV2019.txt'
-    eval_trial_path = '/path_to_spkaware_protocol/eval_CM_ASV2019.txt'
+    dev_trial_path = './protocols/dev_CM_ASV2019.txt'
+    eval_trial_path = './protocols/eval_CM_ASV2019.txt'
 
     # define model related paths
     model_tag = "LPC_aasist_LPRN_SADD_batch_24"
@@ -243,8 +243,8 @@ def get_loader(
                          track, prefix_2019))
 
     ## made changes here for non target speaker removal
-    dev_trial_path = '/path_to_spkaware_protocol/dev_CM_ASV2019.txt'
-    eval_trial_path = '/path_to_spkaware_protocol/eval_CM_ASV2019.txt'
+    dev_trial_path = './protocols/dev_CM_ASV2019.txt'
+    eval_trial_path = './protocols/eval_CM_ASV2019.txt'
 
     d_label_trn, file_train, spk_ids_train = genSpoof_list_spk(dir_meta=trn_list_path,
                                             is_train=True,
