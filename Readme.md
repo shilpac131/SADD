@@ -1,4 +1,4 @@
-# Speaker Aware Deepfake Detectectors
+# Speaker Aware Deepfake Detectors
 
 The code in this repository is the official implementation of the paper "IS THAT ME? USING SPEAKER IDENTITY TO DETECT FAKE SPEECH" accepted at *IEEE MLSP 2024*. The link to the paper is available [here](https://faculty.iitmandi.ac.in/~padman/papers/shilpa_IsThatMe_MLSP2024.pdf).
 
