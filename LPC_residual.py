@@ -97,7 +97,7 @@ if __name__ == "__main__":
                         default='/home/shilpa/Desktop/LPC/oak.wav', help='add source file path')
     parser.add_argument('--save_file', action='store_true', default=False,help='if u want to store the reconstructed aud file')
     parser.add_argument('--order', type=int,
-                        default=14, help='Pls input order value')
+                        default=16, help='Pls input order value')
     parser.add_argument('--set_type', type=str,
                         default='train', help='Pls input set type :{train,dev,eval}')
     args = parser.parse_args()
